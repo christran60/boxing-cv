@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+# We now only have 1 class!
+nc: 1
+names: ['punch']
+
+roboflow:
+  workspace: boxinghub
+  project: boxinghub
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/boxinghub/boxinghub/dataset/3
